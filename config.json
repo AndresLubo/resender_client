@@ -1,0 +1,12 @@
+{
+  "routes_api_cti": {
+    "login": {
+      "url": "/cti/api/v1/login",
+      "method": "POST"
+    }
+  },
+  "socket_namespaces": {
+    "resender": "ws://localhost:3000/resender",
+    "cti_client" : "ws://localhost:3000/cti_client"
+  }
+}
